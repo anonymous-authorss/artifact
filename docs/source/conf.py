@@ -24,7 +24,8 @@ extensions = [
     'sphinx.ext.autodoc',      # 自动提取代码注释
     'sphinx.ext.napoleon',     # 支持 Google/NumPy 风格注释
     'sphinx.ext.viewcode',     # 添加 [source] 源码链接按钮
-    'sphinx.ext.autosummary'
+    'sphinx.ext.autosummary',
+    'sphinx.ext.githubpages',  # 为 GitHub Pages 生成 .nojekyll
 ]
 
 autosummary_generate = True
@@ -63,6 +64,9 @@ html_theme_options = {
     'titles_only': False
 }
 # ==================================================
+
+# GitHub Pages can inject the final site URL at build time.
+html_baseurl = os.environ.get('PAGES_BASE_URL', '')
 
 # 6. 支持的文件扩展名
 source_suffix = {

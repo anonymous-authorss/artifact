@@ -23,3 +23,12 @@ GitHub settings to verify before sharing:
 - Description, website, and topics do not mention the original project page, arXiv page, or author identity.
 - GitHub Pages is disabled unless you later publish an anonymous documentation site.
 - No releases, tags, or Actions secrets reveal author identity.
+
+Publishing the documentation anonymously with GitHub Pages:
+
+1. Move or mirror this repository to the final anonymous GitHub account.
+2. In the anonymous repository, open `Settings -> Pages`.
+3. Under `Build and deployment`, choose `Source: GitHub Actions`.
+4. Keep `.github/workflows/pages.yml` in the repository; it builds `docs/source` with Sphinx and deploys the generated HTML.
+5. Use only the anonymous Pages URL, which will look like `https://<anonymous-account>.github.io/<anonymous-repo>/`.
+6. Do not point the docs to a personal domain or a Pages URL containing a non-anonymous account name.

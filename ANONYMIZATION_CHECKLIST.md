@@ -21,6 +21,7 @@ Items to review before making the repository public:
 - `docs/source/about.rst`: confirm the anonymous citation block and contact wording are acceptable for review.
 - `pyproject.toml`: decide what `project.urls` value should be after review; it is currently a placeholder.
 - `.readthedocs.yaml`: safe to keep in a private copy, but do not connect it to a public Read the Docs project until the public docs destination is anonymous.
+- `.github/workflows/pages.yml`: safe to keep in the repository, but only enable GitHub Pages after the repository is owned by the final anonymous account.
 - GitHub repository settings: owner account, repository description, website, topics, releases, tags, and Pages/Read the Docs bindings must all be checked manually.
 - Git commit identity: create commits in this copy using an anonymous name and email only.
 
