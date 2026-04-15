@@ -4,12 +4,12 @@
 
 
 <p align="center">
-  <a href="./docs/"><img src="https://img.shields.io/badge/Documentation-Included-blue" alt="Documentation"></a>
+  <a href="https://anonymous-authorss.github.io/artifact/"><img src="https://img.shields.io/badge/Documentation-Online-blue" alt="Documentation"></a>
   <a href="https://www.kaggle.com/datasets/anonymousauthors/assumption-violation-datasets/data"><img src="https://img.shields.io/badge/Datasets-Kaggle-20BEFF" alt="Datasets"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
-**CausalCompass** is a Python package that provides a flexible and extensible benchmark suite for evaluating the robustness of **time-series causal discovery (TSCD)** methods under **misspecified modeling assumptions**. Documentation sources are included in this repository under [`docs/`](./docs/).
+**CausalCompass** is a Python package that provides a flexible and extensible benchmark suite for evaluating the robustness of **time-series causal discovery (TSCD)** methods under **misspecified modeling assumptions**. Online documentation for this anonymous copy is available at [anonymous-authorss.github.io/artifact](https://anonymous-authorss.github.io/artifact/).
 
 <p align="center">
   <img src="images/auprc_performance_radar_plot.png" width="700" alt="AUPRC Performance Radar Plot">
