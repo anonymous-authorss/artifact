@@ -1,6 +1,6 @@
 # Publish This Copy To Anonymous GitHub
 
-This environment can prepare the anonymous repository locally, but it cannot create a truly anonymous remote GitHub repository because the only connected GitHub account here is the real account `huiyang-yi`.
+This environment can prepare the anonymous repository locally, but it cannot create a truly anonymous remote GitHub repository because the only connected GitHub account here is not anonymous.
 
 Recommended steps:
 
