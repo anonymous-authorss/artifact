@@ -1,8 +1,6 @@
-![CausalCompass icon](images/icon4.png)
+<img src="images/icon4.png" width="150" align="left" vspace="1" />
 
 # CausalCompass: Evaluating the Robustness of Time-Series Causal Discovery in Misspecified Scenarios
-
-**Full datasets:** [Kaggle](https://www.kaggle.com/datasets/anonymousauthors/assumption-violation-datasets/data)
 
 
 <p align="center">
@@ -13,7 +11,9 @@
 
 **CausalCompass** is a Python package that provides a flexible and extensible benchmark suite for evaluating the robustness of **time-series causal discovery (TSCD)** methods under **misspecified modeling assumptions**. Documentation sources are included in this repository under [`docs/`](./docs/).
 
-![AUPRC Performance Radar Plot](images/auprc_performance_radar_plot.png)
+<p align="center">
+  <img src="images/auprc_performance_radar_plot.png" width="700" alt="AUPRC Performance Radar Plot">
+</p>
 
 ---
 
