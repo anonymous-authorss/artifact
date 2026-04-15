@@ -9,7 +9,7 @@
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
-**CausalCompass** is a Python package that provides a flexible and extensible benchmark suite for evaluating the robustness of **time-series causal discovery (TSCD)** methods under **misspecified modeling assumptions**. Online documentation for this anonymous copy is available at [anonymous-authorss.github.io/artifact](https://anonymous-authorss.github.io/artifact/).
+**CausalCompass** is a Python package that provides a flexible and extensible benchmark suite for evaluating the robustness of **time-series causal discovery (TSCD)** methods under **misspecified modeling assumptions**. Online documentation for this anonymous copy is available at [Documentation](https://anonymous-authorss.github.io/artifact/).
 
 <p align="center">
   <img src="images/auprc_performance_radar_plot.png" width="700" alt="AUPRC Performance Radar Plot">
