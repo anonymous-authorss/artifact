@@ -52,15 +52,15 @@ Example: `confounder_rho0.5_VAR_p10_T1000_seed0.npz`
 
 ## Installation
 
-### Install with pip
+### Install from source
 
 ```bash
 # 1. Create a clean conda environment
 conda create -n causalcompass-env python=3.10 -y
 conda activate causalcompass-env
 
-# 2. Install causalcompass from PyPI
-pip install causalcompass
+# 2. Install causalcompass from this repository
+pip install .
 
 # 3. Verify installation
 pip show causalcompass

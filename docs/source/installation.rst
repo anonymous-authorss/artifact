@@ -1,8 +1,8 @@
 Installation
 ^^^^^^^^^^^^
 
-Install with pip
-""""""""""""""""
+Install from source
+"""""""""""""""""
 
 .. code-block:: bash
 
@@ -10,8 +10,8 @@ Install with pip
    conda create -n causalcompass-env python=3.10 -y
    conda activate causalcompass-env
 
-   # 2. Install causalcompass from PyPI
-   pip install causalcompass
+   # 2. Install causalcompass from this repository
+   pip install .
 
    # 3. Verify installation
    pip show causalcompass
